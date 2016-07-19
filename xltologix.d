@@ -18,7 +18,7 @@ int main(string[] args)
 {
     if (args.length < 2 || args.length > 3)
 	{
-		writeln("command line: xltologix original.csv [processado.csv]");
+		writeln("command line: xltologix original.csv [result.csv]");
 		return 1;
 	}
 	auto entrada = File(args[1],"r");
